@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>IDInfo</string>
+			<key>vcClass</key>
+			<string>MJLoginViewController</string>
+			<key>title</key>
+			<string>hahahah</string>
+			<key>accessory</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>IDInfo</string>
+			<key>title</key>
+			<string>8768678678</string>
+			<key>accessory</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>IDInfo</string>
+			<key>title</key>
+			<string>7657567567567</string>
+			<key>accessory</key>
+			<string>0</string>
+			<key>vcClass</key>
+			<string>MJBuyViewController</string>
+		</dict>
+	</array>
+</array>
+</plist>

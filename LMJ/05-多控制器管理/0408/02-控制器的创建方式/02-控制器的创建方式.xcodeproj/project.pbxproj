@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0828090118F3891A0039DF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828090018F3891A0039DF84 /* Foundation.framework */; };
+		0828090318F3891A0039DF84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828090218F3891A0039DF84 /* CoreGraphics.framework */; };
+		0828090518F3891A0039DF84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828090418F3891A0039DF84 /* UIKit.framework */; };
+		0828090B18F3891A0039DF84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0828090918F3891A0039DF84 /* InfoPlist.strings */; };
+		0828090D18F3891A0039DF84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828090C18F3891A0039DF84 /* main.m */; };
+		0828091118F3891A0039DF84 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828091018F3891A0039DF84 /* MJAppDelegate.m */; };
+		0828091318F3891A0039DF84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0828091218F3891A0039DF84 /* Images.xcassets */; };
+		0828091A18F3891A0039DF84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828091918F3891A0039DF84 /* XCTest.framework */; };
+		0828091B18F3891A0039DF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828090018F3891A0039DF84 /* Foundation.framework */; };
+		0828091C18F3891A0039DF84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828090418F3891A0039DF84 /* UIKit.framework */; };
+		0828092418F3891A0039DF84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0828092218F3891A0039DF84 /* InfoPlist.strings */; };
+		0828092618F3891A0039DF84 /* _2_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828092518F3891A0039DF84 /* _2_________Tests.m */; };
+		0828093118F389410039DF84 /* MJOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828093018F389410039DF84 /* MJOneViewController.m */; };
+		0828093418F389B10039DF84 /* MJTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828093318F389B10039DF84 /* MJTwoViewController.m */; };
+		0828093618F389F70039DF84 /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0828093518F389F70039DF84 /* Two.storyboard */; };
+		0828097A18F392B50039DF84 /* MJThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828097918F392B50039DF84 /* MJThreeViewController.m */; };
+		0828097C18F3931A0039DF84 /* MJThree5345.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0828097B18F3931A0039DF84 /* MJThree5345.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0828091D18F3891A0039DF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082808F518F3891A0039DF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082808FC18F3891A0039DF84;
+			remoteInfo = "02-控制器的创建方式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082808FD18F3891A0039DF84 /* 02-控制器的创建方式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-控制器的创建方式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0828090018F3891A0039DF84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0828090218F3891A0039DF84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0828090418F3891A0039DF84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0828090818F3891A0039DF84 /* 02-控制器的创建方式-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-控制器的创建方式-Info.plist"; sourceTree = "<group>"; };
+		0828090A18F3891A0039DF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0828090C18F3891A0039DF84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0828090E18F3891A0039DF84 /* 02-控制器的创建方式-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02-控制器的创建方式-Prefix.pch"; sourceTree = "<group>"; };
+		0828090F18F3891A0039DF84 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		0828091018F3891A0039DF84 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		0828091218F3891A0039DF84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0828091818F3891A0039DF84 /* 02-控制器的创建方式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-控制器的创建方式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0828091918F3891A0039DF84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0828092118F3891A0039DF84 /* 02-控制器的创建方式Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-控制器的创建方式Tests-Info.plist"; sourceTree = "<group>"; };
+		0828092318F3891A0039DF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0828092518F3891A0039DF84 /* _2_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_________Tests.m"; sourceTree = "<group>"; };
+		0828092F18F389410039DF84 /* MJOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJOneViewController.h; sourceTree = "<group>"; };
+		0828093018F389410039DF84 /* MJOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJOneViewController.m; sourceTree = "<group>"; };
+		0828093218F389B10039DF84 /* MJTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTwoViewController.h; sourceTree = "<group>"; };
+		0828093318F389B10039DF84 /* MJTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTwoViewController.m; sourceTree = "<group>"; };
+		0828093518F389F70039DF84 /* Two.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Two.storyboard; sourceTree = "<group>"; };
+		0828097818F392B50039DF84 /* MJThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJThreeViewController.h; sourceTree = "<group>"; };
+		0828097918F392B50039DF84 /* MJThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJThreeViewController.m; sourceTree = "<group>"; };
+		0828097B18F3931A0039DF84 /* MJThree5345.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJThree5345.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082808FA18F3891A0039DF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828090318F3891A0039DF84 /* CoreGraphics.framework in Frameworks */,
+				0828090518F3891A0039DF84 /* UIKit.framework in Frameworks */,
+				0828090118F3891A0039DF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0828091518F3891A0039DF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828091A18F3891A0039DF84 /* XCTest.framework in Frameworks */,
+				0828091C18F3891A0039DF84 /* UIKit.framework in Frameworks */,
+				0828091B18F3891A0039DF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082808F418F3891A0039DF84 = {
+			isa = PBXGroup;
+			children = (
+				0828090618F3891A0039DF84 /* 02-控制器的创建方式 */,
+				0828091F18F3891A0039DF84 /* 02-控制器的创建方式Tests */,
+				082808FF18F3891A0039DF84 /* Frameworks */,
+				082808FE18F3891A0039DF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		082808FE18F3891A0039DF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082808FD18F3891A0039DF84 /* 02-控制器的创建方式.app */,
+				0828091818F3891A0039DF84 /* 02-控制器的创建方式Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082808FF18F3891A0039DF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0828090018F3891A0039DF84 /* Foundation.framework */,
+				0828090218F3891A0039DF84 /* CoreGraphics.framework */,
+				0828090418F3891A0039DF84 /* UIKit.framework */,
+				0828091918F3891A0039DF84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0828090618F3891A0039DF84 /* 02-控制器的创建方式 */ = {
+			isa = PBXGroup;
+			children = (
+				0828090F18F3891A0039DF84 /* MJAppDelegate.h */,
+				0828091018F3891A0039DF84 /* MJAppDelegate.m */,
+				0828091218F3891A0039DF84 /* Images.xcassets */,
+				0828090718F3891A0039DF84 /* Supporting Files */,
+				0828092F18F389410039DF84 /* MJOneViewController.h */,
+				0828093018F389410039DF84 /* MJOneViewController.m */,
+				0828093218F389B10039DF84 /* MJTwoViewController.h */,
+				0828093318F389B10039DF84 /* MJTwoViewController.m */,
+				0828093518F389F70039DF84 /* Two.storyboard */,
+				0828097818F392B50039DF84 /* MJThreeViewController.h */,
+				0828097918F392B50039DF84 /* MJThreeViewController.m */,
+				0828097B18F3931A0039DF84 /* MJThree5345.xib */,
+			);
+			path = "02-控制器的创建方式";
+			sourceTree = "<group>";
+		};
+		0828090718F3891A0039DF84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0828090818F3891A0039DF84 /* 02-控制器的创建方式-Info.plist */,
+				0828090918F3891A0039DF84 /* InfoPlist.strings */,
+				0828090C18F3891A0039DF84 /* main.m */,
+				0828090E18F3891A0039DF84 /* 02-控制器的创建方式-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0828091F18F3891A0039DF84 /* 02-控制器的创建方式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0828092518F3891A0039DF84 /* _2_________Tests.m */,
+				0828092018F3891A0039DF84 /* Supporting Files */,
+			);
+			path = "02-控制器的创建方式Tests";
+			sourceTree = "<group>";
+		};
+		0828092018F3891A0039DF84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0828092118F3891A0039DF84 /* 02-控制器的创建方式Tests-Info.plist */,
+				0828092218F3891A0039DF84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082808FC18F3891A0039DF84 /* 02-控制器的创建方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0828092918F3891A0039DF84 /* Build configuration list for PBXNativeTarget "02-控制器的创建方式" */;
+			buildPhases = (
+				082808F918F3891A0039DF84 /* Sources */,
+				082808FA18F3891A0039DF84 /* Frameworks */,
+				082808FB18F3891A0039DF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-控制器的创建方式";
+			productName = "02-控制器的创建方式";
+			productReference = 082808FD18F3891A0039DF84 /* 02-控制器的创建方式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0828091718F3891A0039DF84 /* 02-控制器的创建方式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0828092C18F3891A0039DF84 /* Build configuration list for PBXNativeTarget "02-控制器的创建方式Tests" */;
+			buildPhases = (
+				0828091418F3891A0039DF84 /* Sources */,
+				0828091518F3891A0039DF84 /* Frameworks */,
+				0828091618F3891A0039DF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0828091E18F3891A0039DF84 /* PBXTargetDependency */,
+			);
+			name = "02-控制器的创建方式Tests";
+			productName = "02-控制器的创建方式Tests";
+			productReference = 0828091818F3891A0039DF84 /* 02-控制器的创建方式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082808F518F3891A0039DF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					0828091718F3891A0039DF84 = {
+						TestTargetID = 082808FC18F3891A0039DF84;
+					};
+				};
+			};
+			buildConfigurationList = 082808F818F3891A0039DF84 /* Build configuration list for PBXProject "02-控制器的创建方式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 082808F418F3891A0039DF84;
+			productRefGroup = 082808FE18F3891A0039DF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082808FC18F3891A0039DF84 /* 02-控制器的创建方式 */,
+				0828091718F3891A0039DF84 /* 02-控制器的创建方式Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082808FB18F3891A0039DF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828097C18F3931A0039DF84 /* MJThree5345.xib in Resources */,
+				0828093618F389F70039DF84 /* Two.storyboard in Resources */,
+				0828090B18F3891A0039DF84 /* InfoPlist.strings in Resources */,
+				0828091318F3891A0039DF84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0828091618F3891A0039DF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828092418F3891A0039DF84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082808F918F3891A0039DF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828093418F389B10039DF84 /* MJTwoViewController.m in Sources */,
+				0828097A18F392B50039DF84 /* MJThreeViewController.m in Sources */,
+				0828093118F389410039DF84 /* MJOneViewController.m in Sources */,
+				0828090D18F3891A0039DF84 /* main.m in Sources */,
+				0828091118F3891A0039DF84 /* MJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0828091418F3891A0039DF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0828092618F3891A0039DF84 /* _2_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0828091E18F3891A0039DF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082808FC18F3891A0039DF84 /* 02-控制器的创建方式 */;
+			targetProxy = 0828091D18F3891A0039DF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0828090918F3891A0039DF84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0828090A18F3891A0039DF84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0828092218F3891A0039DF84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0828092318F3891A0039DF84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0828092718F3891A0039DF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0828092818F3891A0039DF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0828092A18F3891A0039DF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-控制器的创建方式/02-控制器的创建方式-Prefix.pch";
+				INFOPLIST_FILE = "02-控制器的创建方式/02-控制器的创建方式-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0828092B18F3891A0039DF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-控制器的创建方式/02-控制器的创建方式-Prefix.pch";
+				INFOPLIST_FILE = "02-控制器的创建方式/02-控制器的创建方式-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0828092D18F3891A0039DF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-控制器的创建方式.app/02-控制器的创建方式";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-控制器的创建方式/02-控制器的创建方式-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-控制器的创建方式Tests/02-控制器的创建方式Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0828092E18F3891A0039DF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-控制器的创建方式.app/02-控制器的创建方式";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-控制器的创建方式/02-控制器的创建方式-Prefix.pch";
+				INFOPLIST_FILE = "02-控制器的创建方式Tests/02-控制器的创建方式Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082808F818F3891A0039DF84 /* Build configuration list for PBXProject "02-控制器的创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0828092718F3891A0039DF84 /* Debug */,
+				0828092818F3891A0039DF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0828092918F3891A0039DF84 /* Build configuration list for PBXNativeTarget "02-控制器的创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0828092A18F3891A0039DF84 /* Debug */,
+				0828092B18F3891A0039DF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0828092C18F3891A0039DF84 /* Build configuration list for PBXNativeTarget "02-控制器的创建方式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0828092D18F3891A0039DF84 /* Debug */,
+				0828092E18F3891A0039DF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082808F518F3891A0039DF84 /* Project object */;
+}

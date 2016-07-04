@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FD749818ECEDD50040B095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD749718ECEDD50040B095 /* Foundation.framework */; };
+		08FD749A18ECEDD50040B095 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD749918ECEDD50040B095 /* CoreGraphics.framework */; };
+		08FD749C18ECEDD50040B095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD749B18ECEDD50040B095 /* UIKit.framework */; };
+		08FD74A218ECEDD50040B095 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FD74A018ECEDD50040B095 /* InfoPlist.strings */; };
+		08FD74A418ECEDD50040B095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD74A318ECEDD50040B095 /* main.m */; };
+		08FD74A818ECEDD50040B095 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD74A718ECEDD50040B095 /* MJAppDelegate.m */; };
+		08FD74AB18ECEDD50040B095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FD74A918ECEDD50040B095 /* Main.storyboard */; };
+		08FD74AE18ECEDD50040B095 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD74AD18ECEDD50040B095 /* MJViewController.m */; };
+		08FD74B018ECEDD50040B095 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FD74AF18ECEDD50040B095 /* Images.xcassets */; };
+		08FD74B718ECEDD50040B095 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD74B618ECEDD50040B095 /* XCTest.framework */; };
+		08FD74B818ECEDD50040B095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD749718ECEDD50040B095 /* Foundation.framework */; };
+		08FD74B918ECEDD50040B095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD749B18ECEDD50040B095 /* UIKit.framework */; };
+		08FD74C118ECEDD50040B095 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FD74BF18ECEDD50040B095 /* InfoPlist.strings */; };
+		08FD74C318ECEDD50040B095 /* _1_QQ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD74C218ECEDD50040B095 /* _1_QQ__Tests.m */; };
+		08FD74CD18ECEF500040B095 /* qq.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08FD74CC18ECEF500040B095 /* qq.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08FD74BA18ECEDD50040B095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FD748C18ECEDD50040B095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08FD749318ECEDD50040B095;
+			remoteInfo = "01-QQ动态";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FD749418ECEDD50040B095 /* 01-QQ动态.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-QQ动态.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FD749718ECEDD50040B095 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08FD749918ECEDD50040B095 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08FD749B18ECEDD50040B095 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08FD749F18ECEDD50040B095 /* 01-QQ动态-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-QQ动态-Info.plist"; sourceTree = "<group>"; };
+		08FD74A118ECEDD50040B095 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FD74A318ECEDD50040B095 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FD74A518ECEDD50040B095 /* 01-QQ动态-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01-QQ动态-Prefix.pch"; sourceTree = "<group>"; };
+		08FD74A618ECEDD50040B095 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		08FD74A718ECEDD50040B095 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		08FD74AA18ECEDD50040B095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08FD74AC18ECEDD50040B095 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		08FD74AD18ECEDD50040B095 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		08FD74AF18ECEDD50040B095 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08FD74B518ECEDD50040B095 /* 01-QQ动态Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-QQ动态Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FD74B618ECEDD50040B095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08FD74BE18ECEDD50040B095 /* 01-QQ动态Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-QQ动态Tests-Info.plist"; sourceTree = "<group>"; };
+		08FD74C018ECEDD50040B095 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FD74C218ECEDD50040B095 /* _1_QQ__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_QQ__Tests.m; sourceTree = "<group>"; };
+		08FD74CC18ECEF500040B095 /* qq.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qq.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FD749118ECEDD50040B095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD749A18ECEDD50040B095 /* CoreGraphics.framework in Frameworks */,
+				08FD749C18ECEDD50040B095 /* UIKit.framework in Frameworks */,
+				08FD749818ECEDD50040B095 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FD74B218ECEDD50040B095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD74B718ECEDD50040B095 /* XCTest.framework in Frameworks */,
+				08FD74B918ECEDD50040B095 /* UIKit.framework in Frameworks */,
+				08FD74B818ECEDD50040B095 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FD748B18ECEDD50040B095 = {
+			isa = PBXGroup;
+			children = (
+				08FD749D18ECEDD50040B095 /* 01-QQ动态 */,
+				08FD74BC18ECEDD50040B095 /* 01-QQ动态Tests */,
+				08FD749618ECEDD50040B095 /* Frameworks */,
+				08FD749518ECEDD50040B095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08FD749518ECEDD50040B095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FD749418ECEDD50040B095 /* 01-QQ动态.app */,
+				08FD74B518ECEDD50040B095 /* 01-QQ动态Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08FD749618ECEDD50040B095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FD749718ECEDD50040B095 /* Foundation.framework */,
+				08FD749918ECEDD50040B095 /* CoreGraphics.framework */,
+				08FD749B18ECEDD50040B095 /* UIKit.framework */,
+				08FD74B618ECEDD50040B095 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FD749D18ECEDD50040B095 /* 01-QQ动态 */ = {
+			isa = PBXGroup;
+			children = (
+				08FD74A618ECEDD50040B095 /* MJAppDelegate.h */,
+				08FD74A718ECEDD50040B095 /* MJAppDelegate.m */,
+				08FD74A918ECEDD50040B095 /* Main.storyboard */,
+				08FD74AC18ECEDD50040B095 /* MJViewController.h */,
+				08FD74AD18ECEDD50040B095 /* MJViewController.m */,
+				08FD74AF18ECEDD50040B095 /* Images.xcassets */,
+				08FD749E18ECEDD50040B095 /* Supporting Files */,
+			);
+			path = "01-QQ动态";
+			sourceTree = "<group>";
+		};
+		08FD749E18ECEDD50040B095 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FD749F18ECEDD50040B095 /* 01-QQ动态-Info.plist */,
+				08FD74A018ECEDD50040B095 /* InfoPlist.strings */,
+				08FD74A318ECEDD50040B095 /* main.m */,
+				08FD74A518ECEDD50040B095 /* 01-QQ动态-Prefix.pch */,
+				08FD74CC18ECEF500040B095 /* qq.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08FD74BC18ECEDD50040B095 /* 01-QQ动态Tests */ = {
+			isa = PBXGroup;
+			children = (
+				08FD74C218ECEDD50040B095 /* _1_QQ__Tests.m */,
+				08FD74BD18ECEDD50040B095 /* Supporting Files */,
+			);
+			path = "01-QQ动态Tests";
+			sourceTree = "<group>";
+		};
+		08FD74BD18ECEDD50040B095 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FD74BE18ECEDD50040B095 /* 01-QQ动态Tests-Info.plist */,
+				08FD74BF18ECEDD50040B095 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08FD749318ECEDD50040B095 /* 01-QQ动态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FD74C618ECEDD50040B095 /* Build configuration list for PBXNativeTarget "01-QQ动态" */;
+			buildPhases = (
+				08FD749018ECEDD50040B095 /* Sources */,
+				08FD749118ECEDD50040B095 /* Frameworks */,
+				08FD749218ECEDD50040B095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-QQ动态";
+			productName = "01-QQ动态";
+			productReference = 08FD749418ECEDD50040B095 /* 01-QQ动态.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08FD74B418ECEDD50040B095 /* 01-QQ动态Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FD74C918ECEDD50040B095 /* Build configuration list for PBXNativeTarget "01-QQ动态Tests" */;
+			buildPhases = (
+				08FD74B118ECEDD50040B095 /* Sources */,
+				08FD74B218ECEDD50040B095 /* Frameworks */,
+				08FD74B318ECEDD50040B095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08FD74BB18ECEDD50040B095 /* PBXTargetDependency */,
+			);
+			name = "01-QQ动态Tests";
+			productName = "01-QQ动态Tests";
+			productReference = 08FD74B518ECEDD50040B095 /* 01-QQ动态Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FD748C18ECEDD50040B095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					08FD74B418ECEDD50040B095 = {
+						TestTargetID = 08FD749318ECEDD50040B095;
+					};
+				};
+			};
+			buildConfigurationList = 08FD748F18ECEDD50040B095 /* Build configuration list for PBXProject "01-QQ动态" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08FD748B18ECEDD50040B095;
+			productRefGroup = 08FD749518ECEDD50040B095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08FD749318ECEDD50040B095 /* 01-QQ动态 */,
+				08FD74B418ECEDD50040B095 /* 01-QQ动态Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08FD749218ECEDD50040B095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD74CD18ECEF500040B095 /* qq.plist in Resources */,
+				08FD74B018ECEDD50040B095 /* Images.xcassets in Resources */,
+				08FD74A218ECEDD50040B095 /* InfoPlist.strings in Resources */,
+				08FD74AB18ECEDD50040B095 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FD74B318ECEDD50040B095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD74C118ECEDD50040B095 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08FD749018ECEDD50040B095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD74A418ECEDD50040B095 /* main.m in Sources */,
+				08FD74AE18ECEDD50040B095 /* MJViewController.m in Sources */,
+				08FD74A818ECEDD50040B095 /* MJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FD74B118ECEDD50040B095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD74C318ECEDD50040B095 /* _1_QQ__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08FD74BB18ECEDD50040B095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08FD749318ECEDD50040B095 /* 01-QQ动态 */;
+			targetProxy = 08FD74BA18ECEDD50040B095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08FD74A018ECEDD50040B095 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FD74A118ECEDD50040B095 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08FD74A918ECEDD50040B095 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FD74AA18ECEDD50040B095 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08FD74BF18ECEDD50040B095 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FD74C018ECEDD50040B095 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08FD74C418ECEDD50040B095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08FD74C518ECEDD50040B095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08FD74C718ECEDD50040B095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-QQ动态/01-QQ动态-Prefix.pch";
+				INFOPLIST_FILE = "01-QQ动态/01-QQ动态-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08FD74C818ECEDD50040B095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-QQ动态/01-QQ动态-Prefix.pch";
+				INFOPLIST_FILE = "01-QQ动态/01-QQ动态-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08FD74CA18ECEDD50040B095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-QQ动态.app/01-QQ动态";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-QQ动态/01-QQ动态-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-QQ动态Tests/01-QQ动态Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08FD74CB18ECEDD50040B095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-QQ动态.app/01-QQ动态";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-QQ动态/01-QQ动态-Prefix.pch";
+				INFOPLIST_FILE = "01-QQ动态Tests/01-QQ动态Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FD748F18ECEDD50040B095 /* Build configuration list for PBXProject "01-QQ动态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FD74C418ECEDD50040B095 /* Debug */,
+				08FD74C518ECEDD50040B095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FD74C618ECEDD50040B095 /* Build configuration list for PBXNativeTarget "01-QQ动态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FD74C718ECEDD50040B095 /* Debug */,
+				08FD74C818ECEDD50040B095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08FD74C918ECEDD50040B095 /* Build configuration list for PBXNativeTarget "01-QQ动态Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FD74CA18ECEDD50040B095 /* Debug */,
+				08FD74CB18ECEDD50040B095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FD748C18ECEDD50040B095 /* Project object */;
+}
