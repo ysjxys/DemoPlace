@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片1</string>
+		<key>imageName</key>
+		<string>image1</string>
+	</dict>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片2</string>
+		<key>imageName</key>
+		<string>image2</string>
+	</dict>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片3</string>
+		<key>imageName</key>
+		<string>image3</string>
+	</dict>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片4</string>
+		<key>imageName</key>
+		<string>image4</string>
+	</dict>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片5</string>
+		<key>imageName</key>
+		<string>image5</string>
+	</dict>
+	<dict>
+		<key>imageDesc</key>
+		<string>这是图片6</string>
+		<key>imageName</key>
+		<string>image1</string>
+	</dict>
+</array>
+</plist>
